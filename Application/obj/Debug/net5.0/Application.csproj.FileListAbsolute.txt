@@ -1,0 +1,17 @@
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Application.deps.json
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Application.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/ref/Application.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Application.pdb
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Domain.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Persistence.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Persistence.pdb
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/bin/Debug/net5.0/Domain.pdb
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.csprojAssemblyReference.cache
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.AssemblyInfoInputs.cache
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.AssemblyInfo.cs
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.csproj.CopyComplete
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/ref/Application.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Application/obj/Debug/net5.0/Application.pdb

@@ -1,0 +1,15 @@
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/bin/Debug/net5.0/Persistence.deps.json
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/bin/Debug/net5.0/Persistence.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/bin/Debug/net5.0/ref/Persistence.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/bin/Debug/net5.0/Persistence.pdb
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/bin/Debug/net5.0/Domain.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/bin/Debug/net5.0/Domain.pdb
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.csprojAssemblyReference.cache
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.csproj.CopyComplete
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/amirharrison/Desktop/udemy_classes/dotnet_react/hobnob/Persistence/obj/Debug/net5.0/Persistence.pdb
