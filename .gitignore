@@ -5,7 +5,6 @@
 
 appsettings.json
 
-
 # User-specific files
 *.rsuser
 *.suo
@@ -63,9 +62,6 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-
-# Tye
-.tye/
 
 # StyleCop
 StyleCopReport.xml
@@ -307,9 +303,6 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
-
-# Ionide - VsCode extension for F# Support
-.ionide/
 
 # CodeRush personal settings
 .cr/personal
