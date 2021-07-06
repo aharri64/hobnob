@@ -6,6 +6,7 @@ namespace Domain
     {
         // When we return an activity, we will return an object with these properties
         public Guid Id { get; set; } //? we can do this all inside the client side (primary key)
+
         public string Title { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }
