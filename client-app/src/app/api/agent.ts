@@ -17,9 +17,15 @@ axios.interceptors.response.use(async response => {
     await sleep(1000);
     return response;
 }, (error: AxiosError) => {
-    const { data, status } = error.response!;
+    const { data, status, config } = error.response!;
     switch (status) {
         case 400:
+            if (typeof data === 'string') {
+                toast.error(data);
+            }
+            if (config.method === 'get' && data.errors.hasOwnProperty('id')) {
+                history.push('/not-found');
+            }
             if (data.errors) {
                 const modalStateErrors = [];
                 for (const key in data.errors) {
@@ -28,16 +34,14 @@ axios.interceptors.response.use(async response => {
                     }
                 }
                 throw modalStateErrors.flat();
-            } else {
-                toast.error(data);
             }
             break;
         case 401:
-            toast.error('unauthorized');
+            toast.error('Unauthorized');
             break;
         case 404:
             history.push('/not-found');
-            toast.error('not found');
+            toast.error('Not Found');
             break;
         case 500:
             store.commonStore.setServerError(data);
