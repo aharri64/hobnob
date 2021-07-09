@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 import { history } from '../..';
 
 import { Activity } from '../models/activity';
+import { store } from '../stores/store';
 
 const sleep = (delay: number) => {
     return new Promise((resolve) => {
@@ -13,10 +14,8 @@ const sleep = (delay: number) => {
 axios.defaults.baseURL = 'http://localhost:5000/api';
 
 axios.interceptors.response.use(async response => {
-
     await sleep(1000);
     return response;
-
 }, (error: AxiosError) => {
     const { data, status } = error.response!;
     switch (status) {
@@ -41,7 +40,8 @@ axios.interceptors.response.use(async response => {
             toast.error('not found');
             break;
         case 500:
-            toast.error('server error');
+            store.commonStore.setServerError(data);
+            history.push('/server-error');
             break;
     }
     return Promise.reject(error)
