@@ -1,5 +1,6 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 import { toast } from 'react-toastify';
+import { history } from '../..';
 
 import { Activity } from '../models/activity';
 
@@ -26,6 +27,7 @@ axios.interceptors.response.use(async response => {
             toast.error('unauthorized');
             break;
         case 404:
+            history.push('/not-found');
             toast.error('not found');
             break;
         case 500:
