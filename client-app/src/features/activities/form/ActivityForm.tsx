@@ -75,7 +75,7 @@ export default observer(function ActivityForm() {
                             name='date'
                             showTimeSelect
                             timeCaption='time'
-                            dateFormat='MMMM d, yyyy h:m aa'
+                            dateFormat='MMMM d, yyyy h:mm aa'
                         />
                         <Header content='Location Details' sub color='teal' />
                         <MyTextInput placeholder='City' name='city' />
