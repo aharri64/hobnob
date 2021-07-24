@@ -15,6 +15,7 @@ export default class UserStore {
         return !!this.user;
     }
 
+    //* To ogin Users
     login = async (creds: UserFormValues) => {
         try {
             const user = await agent.Account.login(creds);
@@ -42,4 +43,18 @@ export default class UserStore {
             console.log(error);
         }
     }
+
+    // * To Register Users \\ 
+    register = async (creds: UserFormValues) => {
+        try {
+            const user = await agent.Account.register(creds);
+            store.commonStore.setToken(user.token);
+            runInAction(() => this.user = user);
+            history.push('/activities');
+            store.modalStore.closeModal();
+        } catch (error) {
+            throw error;
+        }
+    }
+
 }
