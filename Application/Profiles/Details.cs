@@ -34,7 +34,7 @@ namespace Application.Profiles
 
                 if (user == null) return null;
 
-                return Result<Profile>.Success(user)
+                return Result<Profile>.Success(user);
             }
         }
     }
