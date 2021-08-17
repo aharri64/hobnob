@@ -8,7 +8,7 @@ interface Props {
 
 export default function PhotoWidgetDropzone({ setFiles }: Props) {
     const dzStyles = {
-        border: 'dashed 3px #eee',
+        border: 'dashed 3`px #eee',
         borderColor: '#eee',
         borderRadius: '5px',
         paddingTop: '30px',
