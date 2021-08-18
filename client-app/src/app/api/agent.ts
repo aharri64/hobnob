@@ -93,7 +93,9 @@ const Profiles = {
         return axios.post<Photo>('photos', formData, {
             headers: { 'Content-type': 'multipart/form-data' }
         })
-    }
+    },
+    setMainPhoto: (id: string) => requests.post(`/photos/${id}/setMain`, {}),
+    deletPhoto: (id: string) => requests.del(`/photos/${id}`)
 }
 
 const agent = {
