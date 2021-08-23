@@ -4,3 +4,5 @@ Building an app centered around event planning utilizing C#, .NET, React, Typesc
 Getting Closer
 
 Almost There
+
+Moved my desk
