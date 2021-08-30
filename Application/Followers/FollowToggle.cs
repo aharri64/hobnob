@@ -57,7 +57,7 @@ namespace Application.Followers
 
                 if (success) return Result<Unit>.Success(Unit.Value);
 
-                return Result<Unit>.Failure("Failed to update following")
+                return Result<Unit>.Failure("Failed to update following");
             }
         }
     }
