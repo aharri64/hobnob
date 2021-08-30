@@ -442,5 +442,8 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+API/hobnob
 API/hobnob.db
 API/hobnob.db
+API/hobnob.db-shm
+API/hobnob.db-wal
