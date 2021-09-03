@@ -4,7 +4,6 @@ import { Activity, ActivityFormValues } from "../models/activity";
 import { format } from "date-fns"
 import { store } from "./store";
 import { Profile } from "../models/profile";
-import { throws } from "assert";
 
 // Store
 export default class ActivityStore {
