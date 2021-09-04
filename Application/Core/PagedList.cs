@@ -14,6 +14,7 @@ namespace Application.Core
             TotalPages = (int)Math.Ceiling(count / (double)pageSize);
             PageSize = pageSize;
             TotalCount = count;
+            AddRange(items);
         }
 
         public int CurrentPage { get; set; }
